@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="icon" href="%PUBLIC_URL%/favicon.icon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>FIRST WEB</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="assets/icon/partner.png" alt="logo" class="logo-img" />
+				<h1 class="logo-title">Lurry Putri Aprilia</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#jasa">SERVICE</a></li>
+					<li><a href="mailto:luriaprilia8@gmai.com">CONTACT</a></li>
+
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">Follow Me</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hello, Lurry Putri Aprilia Here!</p>
+				<p class="description">One click, thousands of problems solved</p>
+				<img src="assets/foto/lurry.png" alt="lurry" class="img-foto"/>
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="title">I'm a Programmer</p>
+				<p class="description">Try it first, rather than not at all.</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()"> Go Cooperation</button>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card" id="jasa">
+					<div class="card-item">
+						<img src="assets/icon/24-hours.png" alt="icon 1" class="icon"/>
+						<p class="card-title">24 hour service</p>
+						<p class="card-description">Whenever and wherever I am ready to help</p>
+					</div>
+					<div class="card-item">
+						<img src="assets/icon/hot-deal.png" alt="icon 2"  class="icon"/>
+						<p class="card-title">Most Affordable Service</p>
+						<p class="card-description">The fees for the services I provide are definitely affordable and guaranteed</p>
+					</div>
+					<div class="card-item">
+						<img src="assets/icon/rating.png" alt="icon 3"  class="icon"/>
+						<p class="card-title">450 Reviews</p>
+						<p class="card-description">They are happy to work with me.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; Lurry Putri Website 2022</p>
+		</footer>
+		<script>
+			function redirInstagram() {
+				window.location.href = "https://instagram.com/luriapril"
+			}
+			
+			function redirWhatsapp() {
+				window.location.href = "https://wa.me/+6285777929036"
+			}
+		</script>
+	</body>
+</html>
